@@ -206,3 +206,79 @@ footer span {
 	font-size: .875em;
 	text-transform: lowercase;
 }
+
+@media all and (min-width:768px) {
+	/* Tablet styles here */
+.bottom-section {
+	display: flex;
+	flex-flow: row;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+}
+
+.section-one {
+	padding-right: 1em;
+}
+.section-two {
+	padding: 0 1em;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-three {
+	padding-left: 1em;
+}
+}
+
+@media all and (min-width:1200px) {
+	/* Desktop styles here */
+.container {
+	width: 100%;
+}
+
+header {
+	display: flex;
+	flex-flow: row;
+	margin: 2em 0;
+}
+
+	header h1 {
+    border: none;
+    text-align: left;
+	}
+	
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row;
+}
+
+.bottom-section {
+	display: flex;
+	flex-flow: row;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33.3%;
+}
+
+.section-one {
+	padding-right: 1em;
+}
+
+.section-two {
+	padding: 0 1em;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-three {
+	padding-left: 1em;
+}
+}
